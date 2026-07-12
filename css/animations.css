@@ -1,0 +1,80 @@
+/* =====================================================
+   ANIMATIONS
+   Scroll-reveal transitions + keyframe animations.
+   Pairs with js/animations.js (IntersectionObserver adds
+   the `is-visible` class to elements tagged [data-reveal]).
+   ===================================================== */
+
+/* ---------- Scroll reveal (base state + revealed state) ---------- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children within a revealed group using nth-child delays */
+.timeline__item[data-reveal].is-visible { transition-delay: 0.05s; }
+.bring__grid .feature-card[data-reveal]:nth-child(1).is-visible { transition-delay: 0s; }
+.bring__grid .feature-card[data-reveal]:nth-child(2).is-visible { transition-delay: 0.12s; }
+.bring__grid .feature-card[data-reveal]:nth-child(3).is-visible { transition-delay: 0.24s; }
+
+.work__grid .project-card[data-reveal]:nth-child(1).is-visible { transition-delay: 0s; }
+.work__grid .project-card[data-reveal]:nth-child(2).is-visible { transition-delay: 0.12s; }
+.work__grid .project-card[data-reveal]:nth-child(3).is-visible { transition-delay: 0.24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ---------- Hero blob float ---------- */
+.hero__blob img {
+  animation: floatBlob 10s ease-in-out infinite;
+}
+
+@keyframes floatBlob {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-16px, 18px) rotate(4deg); }
+}
+
+/* ---------- Scroll cue ---------- */
+@keyframes scrollCue {
+  0% { transform: translateY(0); opacity: 1; }
+  70% { transform: translateY(14px); opacity: 0.2; }
+  71% { transform: translateY(0); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* ---------- Nav mobile menu ---------- */
+@keyframes menuFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Chip pop-in on hover handled via transition in style.css ---------- */
+
+/* ---------- Fade-in utility for JS-driven state changes ---------- */
+.fade-in {
+  animation: fadeIn 0.6s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- Gentle pulse used for the active nav indicator dot (optional accent) ---------- */
+@keyframes softPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(193, 99, 61, 0.35); }
+  50% { box-shadow: 0 0 0 6px rgba(193, 99, 61, 0); }
+}

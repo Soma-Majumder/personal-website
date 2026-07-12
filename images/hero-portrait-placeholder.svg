@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" role="img" aria-labelledby="portraitTitle">
+  <title id="portraitTitle">Illustrated portrait placeholder for Soma</title>
+  <defs>
+    <linearGradient id="portraitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E9D8"/>
+      <stop offset="100%" stop-color="#EAD9C4"/>
+    </linearGradient>
+    <linearGradient id="portraitSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D9986A"/>
+      <stop offset="100%" stop-color="#C1794F"/>
+    </linearGradient>
+    <linearGradient id="portraitHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B2622"/>
+      <stop offset="100%" stop-color="#1B1815"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" rx="32" fill="url(#portraitBg)"/>
+  <circle cx="240" cy="230" r="150" fill="#EFDFC7" opacity="0.6"/>
+  <path d="M240 120 C310 120 350 175 350 240 C350 300 320 340 300 360 L300 400 C300 400 270 430 240 430 C210 430 180 400 180 400 L180 360 C160 340 130 300 130 240 C130 175 170 120 240 120 Z" fill="url(#portraitSkin)"/>
+  <path d="M130 235 C125 165 175 100 240 100 C305 100 355 165 350 235 C345 200 320 175 300 165 C300 165 285 195 240 195 C195 195 180 165 180 165 C160 175 135 200 130 235 Z" fill="url(#portraitHair)"/>
+  <path d="M150 470 C150 400 190 360 240 360 C290 360 330 400 330 470 L330 540 L150 540 Z" fill="#7C8A6E"/>
+  <path d="M150 470 C150 400 190 360 240 360 C245 360 250 360 255 361 C210 375 185 415 185 470 L185 540 L150 540 Z" fill="#6B7A5C"/>
+  <circle cx="205" cy="235" r="6" fill="#2B2622"/>
+  <circle cx="275" cy="235" r="6" fill="#2B2622"/>
+  <path d="M215 275 C225 285 255 285 265 275" stroke="#2B2622" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>

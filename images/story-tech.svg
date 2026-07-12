@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="techTitle">
+  <title id="techTitle">Illustration of a laptop, support headset, and gear symbolizing IT support and problem solving</title>
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E9F0DD"/>
+      <stop offset="100%" stop-color="#CFDFC0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#techBg)"/>
+
+  <!-- Desk -->
+  <rect x="0" y="290" width="480" height="70" fill="#B79A73" opacity="0.35"/>
+
+  <!-- Laptop -->
+  <g transform="translate(140 130)">
+    <rect x="0" y="0" width="200" height="130" rx="8" fill="#2B2622"/>
+    <rect x="10" y="10" width="180" height="110" fill="#F6E9D8"/>
+    <path d="M35 95 L55 55 L80 80 L105 40 L130 70 L160 45" stroke="#C1633D" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-14 130 L214 130 L230 158 L-30 158 Z" fill="#3A342F"/>
+  </g>
+
+  <!-- Gear -->
+  <g transform="translate(360 90)">
+    <circle r="34" fill="#E4A853"/>
+    <circle r="14" fill="#F6E9D8"/>
+    <g stroke="#E4A853" stroke-width="10">
+      <line x1="0" y1="-44" x2="0" y2="-30"/>
+      <line x1="0" y1="30" x2="0" y2="44"/>
+      <line x1="-44" y1="0" x2="-30" y2="0"/>
+      <line x1="30" y1="0" x2="44" y2="0"/>
+      <line x1="-31" y1="-31" x2="-21" y2="-21"/>
+      <line x1="21" y1="21" x2="31" y2="31"/>
+      <line x1="31" y1="-31" x2="21" y2="-21"/>
+      <line x1="-21" y1="21" x2="-31" y2="31"/>
+    </g>
+  </g>
+
+  <!-- Support headset -->
+  <g transform="translate(95 60)">
+    <path d="M0 30 C0 8 18 -8 40 -8 C62 -8 80 8 80 30" stroke="#C1633D" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect x="-8" y="24" width="16" height="26" rx="8" fill="#C1633D"/>
+    <rect x="72" y="24" width="16" height="26" rx="8" fill="#C1633D"/>
+    <path d="M0 50 C0 66 16 74 30 74" stroke="#C1633D" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="74" r="5" fill="#A34E2E"/>
+  </g>
+
+  <!-- Floating status dots -->
+  <g fill="#7C8A6E">
+    <circle cx="60" cy="220" r="5"/>
+    <circle cx="410" cy="220" r="5"/>
+    <circle cx="430" cy="180" r="4"/>
+  </g>
+</svg>

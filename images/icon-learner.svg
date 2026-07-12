@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="learnerIconTitle">
+  <title id="learnerIconTitle">Icon of an open book and growth sprout symbolizing continuous learning</title>
+  <circle cx="40" cy="40" r="38" fill="#F6E9D8"/>
+  <path d="M18 30 C28 24 36 28 40 32 C44 28 52 24 62 30 L62 54 C52 48 44 52 40 56 C36 52 28 48 18 54 Z" fill="#C1633D"/>
+  <path d="M40 32 L40 56" stroke="#F6E9D8" stroke-width="2"/>
+  <path d="M40 22 C40 16 44 12 40 8" stroke="#7C8A6E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M40 22 C40 15 34 14 34 8" stroke="#7C8A6E" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

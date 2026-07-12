@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Soma | Personal Portfolio &amp; Living Résumé</title>
+  <meta name="description" content="Soma is a grounded, adaptable IT support professional and designer who blends spiritual discipline, technical curiosity, and clear communication to bring calm, thoughtful impact to every team.">
+  <meta name="keywords" content="Soma, portfolio, IT support, brand design, corporate report design, resume, UX, front-end">
+  <meta name="author" content="Soma">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Soma | Personal Portfolio &amp; Living Résumé">
+  <meta property="og:description" content="Who I am, my journey, and why I'd be a great addition to your team.">
+  <meta property="og:image" content="images/hero-portrait-placeholder.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard/screen-reader accessibility -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ============================= -->
+  <!-- NAVIGATION                     -->
+  <!-- ============================= -->
+  <header class="site-header" id="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#hero" class="nav__logo" aria-label="Soma home">Soma</a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#hero" class="nav__link" data-nav-link>Home</a></li>
+        <li><a href="#story" class="nav__link" data-nav-link>My Story</a></li>
+        <li><a href="#bring" class="nav__link" data-nav-link>What I Bring</a></li>
+        <li><a href="#skills" class="nav__link" data-nav-link>Skills</a></li>
+        <li><a href="#work" class="nav__link" data-nav-link>Featured Work</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta" data-nav-link>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================= -->
+    <!-- HERO SECTION                   -->
+    <!-- ============================= -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero__blob" aria-hidden="true">
+        <img src="images/hero-blob.svg" alt="" width="600" height="600">
+      </div>
+
+      <div class="hero__container">
+        <div class="hero__text">
+          <p class="eyebrow reveal" data-reveal>Welcome to my living résumé</p>
+          <h1 class="hero__headline reveal" data-reveal>
+            Hi, I&rsquo;m <span class="text-accent">Soma.</span>
+          </h1>
+          <p class="hero__intro reveal" data-reveal>
+            I&rsquo;m a grounded, endlessly curious IT support professional and designer.
+            I turn complexity into calm, clarity, and confidence &mdash; for the teams I
+            work with and the people I serve.
+          </p>
+          <div class="hero__actions reveal" data-reveal>
+            <a href="#story" class="btn btn--primary">Read My Story</a>
+            <a href="#contact" class="btn btn--ghost">Let&rsquo;s Connect</a>
+          </div>
+        </div>
+
+        <div class="hero__portrait reveal" data-reveal>
+          <div class="hero__portrait-frame">
+            <img src="images/hero-portrait-placeholder.svg" alt="Illustrated portrait of Soma" width="480" height="560">
+          </div>
+          <div class="hero__portrait-note" aria-hidden="true">Replace with your professional photo &rarr; images/portrait.jpg</div>
+        </div>
+      </div>
+
+      <a href="#story" class="scroll-cue" aria-label="Scroll to My Story section">
+        <span class="scroll-cue__dot"></span>
+      </a>
+    </section>
+
+    <!-- ============================= -->
+    <!-- MY STORY (TIMELINE)             -->
+    <!-- ============================= -->
+    <section class="story" id="story" aria-labelledby="story-heading">
+      <div class="section-container">
+        <p class="eyebrow reveal" data-reveal>My Journey</p>
+        <h2 class="section-heading reveal" data-reveal id="story-heading">My Story</h2>
+        <p class="section-lede reveal" data-reveal>
+          Three moments that shaped how I think, work, and show up for the people around me.
+        </p>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal" data-reveal>
+            <div class="timeline__card">
+              <div class="timeline__content">
+                <div class="timeline__header">
+                  <img class="timeline__icon" src="images/icon-story-heritage.svg" alt="" width="56" height="56" aria-hidden="true">
+                  <h3 class="timeline__title">Finding Purpose Through Growth</h3>
+                </div>
+                <p class="timeline__text">
+                  Traveling to India to reconnect with my Hindu heritage became one of the
+                  most transformative experiences of my life. Meeting my Guru and immersing
+                  myself in yoga, meditation, and spiritual practice helped me become more
+                  grounded, focused, disciplined, and resilient.
+                </p>
+              </div>
+              <div class="timeline__visual">
+                <img src="images/story-heritage.svg" alt="Illustration of a meditating figure within a lotus at sunrise" width="480" height="360" loading="lazy">
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal" data-reveal>
+            <div class="timeline__card">
+              <div class="timeline__content">
+                <div class="timeline__header">
+                  <img class="timeline__icon" src="images/icon-story-tech.svg" alt="" width="56" height="56" aria-hidden="true">
+                  <h3 class="timeline__title">Embracing Change</h3>
+                </div>
+                <p class="timeline__text">
+                  In 2021 I pivoted into IT Support during the pandemic. This experience
+                  taught me adaptability, continuous learning, and confidence in solving
+                  new technical challenges.
+                </p>
+              </div>
+              <div class="timeline__visual">
+                <img src="images/story-tech.svg" alt="Illustration of a laptop, support headset, and gear" width="480" height="360" loading="lazy">
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal" data-reveal>
+            <div class="timeline__card">
+              <div class="timeline__content">
+                <div class="timeline__header">
+                  <img class="timeline__icon" src="images/icon-story-impact.svg" alt="" width="56" height="56" aria-hidden="true">
+                  <h3 class="timeline__title">Creating Impact</h3>
+                </div>
+                <p class="timeline__text">
+                  While serving with the New York Urban League Young Professionals, I
+                  designed the Corporate Report that helped communicate our accomplishments
+                  and contributed to the chapter receiving Distinguished Chapter of the Year
+                  recognition.
+                </p>
+              </div>
+              <div class="timeline__visual">
+                <img src="images/story-impact.svg" alt="Illustration of a corporate report document with a distinguished chapter award ribbon" width="480" height="360" loading="lazy">
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- WHAT I BRING                   -->
+    <!-- ============================= -->
+    <section class="bring" id="bring" aria-labelledby="bring-heading">
+      <div class="section-container">
+        <p class="eyebrow reveal" data-reveal>My Strengths</p>
+        <h2 class="section-heading reveal" data-reveal id="bring-heading">What I Bring</h2>
+        <p class="section-lede reveal" data-reveal>
+          The qualities I carry into every role, project, and conversation.
+        </p>
+
+        <div class="bring__grid">
+          <article class="feature-card reveal" data-reveal>
+            <img class="feature-card__icon" src="images/icon-calm.svg" alt="" width="80" height="80" loading="lazy" aria-hidden="true">
+            <h3 class="feature-card__title">Calm Under Pressure</h3>
+            <p class="feature-card__text">
+              I bring a grounded presence to every team and remain composed while
+              solving problems.
+            </p>
+          </article>
+
+          <article class="feature-card reveal" data-reveal>
+            <img class="feature-card__icon" src="images/icon-learner.svg" alt="" width="80" height="80" loading="lazy" aria-hidden="true">
+            <h3 class="feature-card__title">Continuous Learner</h3>
+            <p class="feature-card__text">
+              I enjoy learning new technologies and adapting to change.
+            </p>
+          </article>
+
+          <article class="feature-card reveal" data-reveal>
+            <img class="feature-card__icon" src="images/icon-communicator.svg" alt="" width="80" height="80" loading="lazy" aria-hidden="true">
+            <h3 class="feature-card__title">Clear Communicator</h3>
+            <p class="feature-card__text">
+              I enjoy transforming complex information into simple and engaging
+              experiences through technology and design.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- SKILLS                         -->
+    <!-- ============================= -->
+    <section class="skills" id="skills" aria-labelledby="skills-heading">
+      <div class="section-container">
+        <p class="eyebrow reveal" data-reveal>Toolkit</p>
+        <h2 class="section-heading reveal" data-reveal id="skills-heading">Skills</h2>
+        <p class="section-lede reveal" data-reveal>
+          A blend of technical fluency and human-centered professional skills.
+        </p>
+
+        <div class="skills__group reveal" data-reveal>
+          <h3 class="skills__group-title">Technical</h3>
+          <ul class="chip-list">
+            <li class="chip">HTML</li>
+            <li class="chip">CSS</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">IT Support</li>
+            <li class="chip">AI</li>
+            <li class="chip">Adobe Photoshop</li>
+            <li class="chip">Illustrator</li>
+            <li class="chip">InDesign</li>
+          </ul>
+        </div>
+
+        <div class="skills__group reveal" data-reveal>
+          <h3 class="skills__group-title">Professional</h3>
+          <ul class="chip-list">
+            <li class="chip chip--accent">Communication</li>
+            <li class="chip chip--accent">Leadership</li>
+            <li class="chip chip--accent">Problem Solving</li>
+            <li class="chip chip--accent">Adaptability</li>
+            <li class="chip chip--accent">Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- FEATURED WORK                  -->
+    <!-- ============================= -->
+    <section class="work" id="work" aria-labelledby="work-heading">
+      <div class="section-container">
+        <p class="eyebrow reveal" data-reveal>Selected Projects</p>
+        <h2 class="section-heading reveal" data-reveal id="work-heading">Featured Work</h2>
+        <p class="section-lede reveal" data-reveal>
+          A few pieces that show how I turn information into something people
+          actually want to read.
+        </p>
+
+        <div class="work__grid">
+          <article class="project-card reveal" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-report.svg" alt="Preview of the New York Urban League Young Professionals corporate report design" width="400" height="300" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Corporate Report</h3>
+              <p class="project-card__text">
+                A ground-up redesign of an annual corporate report that turned a year
+                of chapter accomplishments into a clear, compelling narrative &mdash;
+                recognized with the Distinguished Chapter of the Year award.
+              </p>
+              <a href="#" class="btn btn--outline project-card__cta">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-brand.svg" alt="Preview of a brand identity design system" width="400" height="300" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Brand Design</h3>
+              <p class="project-card__text">
+                A cohesive visual identity &mdash; logo mark, color system, and
+                typography &mdash; built to feel warm, consistent, and instantly
+                recognizable across every touchpoint.
+              </p>
+              <a href="#" class="btn btn--outline project-card__cta">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-card__media">
+              <img src="images/project-infographics.svg" alt="Preview of infographic and data visualization design" width="400" height="300" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Infographics</h3>
+              <p class="project-card__text">
+                Data and statistics reshaped into clean, digestible visuals that make
+                dense information approachable at a glance.
+              </p>
+              <a href="#" class="btn btn--outline project-card__cta">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- CONTACT                        -->
+    <!-- ============================= -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact__blob" aria-hidden="true"></div>
+      <div class="section-container contact__container">
+        <p class="eyebrow reveal" data-reveal>Get In Touch</p>
+        <h2 class="contact__headline reveal" data-reveal id="contact-heading">
+          Let&rsquo;s Build Something<br>Meaningful Together
+        </h2>
+        <p class="section-lede reveal" data-reveal>
+          Whether it&rsquo;s a role, a project, or just a good conversation &mdash; I&rsquo;d
+          love to hear from you.
+        </p>
+
+        <div class="contact__actions reveal" data-reveal>
+          <a href="mailto:mmajumder94@gmail.com" class="btn btn--primary">Email Me</a>
+          <a href="#" class="btn btn--ghost" rel="noopener noreferrer" target="_blank" aria-label="Connect with Soma on LinkedIn (add your LinkedIn URL)">LinkedIn</a>
+          <a href="assets/resume.pdf" class="btn btn--ghost" download aria-label="Download Soma's résumé (add your resume.pdf file)">Resume</a>
+        </div>
+
+        <p class="contact__direct">
+          Or reach me directly at
+          <a href="mailto:mmajumder94@gmail.com">mmajumder94@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================= -->
+  <!-- FOOTER                          -->
+  <!-- ============================= -->
+  <footer class="site-footer">
+    <p>Made with curiosity, creativity, and continuous learning.</p>
+    <p class="site-footer__meta">&copy; <span id="year"></span> Soma. All rights reserved.</p>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/scroll.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

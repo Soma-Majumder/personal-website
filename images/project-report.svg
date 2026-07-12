@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="projectReportTitle">
+  <title id="projectReportTitle">Illustration of a corporate annual report layout</title>
+  <defs>
+    <linearGradient id="reportBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0DCC5"/>
+      <stop offset="100%" stop-color="#E4835A"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#reportBg)"/>
+  <rect x="150" y="40" width="150" height="200" rx="4" fill="#FFFFFF" opacity="0.95" transform="rotate(-6 225 140)"/>
+  <rect x="120" y="55" width="150" height="200" rx="4" fill="#FFFFFF" transform="rotate(3 195 155)"/>
+  <g transform="rotate(3 195 155)">
+    <rect x="136" y="75" width="118" height="14" fill="#2B2622"/>
+    <rect x="136" y="98" width="80" height="8" fill="#C1633D"/>
+    <rect x="136" y="118" width="118" height="4" fill="#DCE7CE"/>
+    <rect x="136" y="130" width="118" height="4" fill="#DCE7CE"/>
+    <rect x="136" y="142" width="90" height="4" fill="#DCE7CE"/>
+    <rect x="136" y="160" width="34" height="60" fill="#7C8A6E"/>
+    <rect x="176" y="180" width="34" height="40" fill="#E4A853"/>
+    <rect x="216" y="150" width="34" height="70" fill="#C1633D"/>
+  </g>
+</svg>

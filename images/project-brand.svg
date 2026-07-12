@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="projectBrandTitle">
+  <title id="projectBrandTitle">Illustration of brand design elements including a logo mark and color palette</title>
+  <defs>
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCE7CE"/>
+      <stop offset="100%" stop-color="#7C8A6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#brandBg)"/>
+  <circle cx="140" cy="140" r="60" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M140 100 C160 100 176 116 176 136 C176 156 160 172 140 172 C136 172 132 171 128 170 C140 165 150 152 150 136 C150 120 140 107 128 102 C132 101 136 100 140 100 Z" fill="#C1633D"/>
+  <circle cx="140" cy="136" r="14" fill="#E4A853"/>
+  <g transform="translate(220 90)">
+    <rect x="0" y="0" width="34" height="34" rx="8" fill="#C1633D"/>
+    <rect x="44" y="0" width="34" height="34" rx="8" fill="#E4A853"/>
+    <rect x="0" y="44" width="34" height="34" rx="8" fill="#2B2622"/>
+    <rect x="44" y="44" width="34" height="34" rx="8" fill="#F6E9D8"/>
+  </g>
+  <rect x="220" y="180" width="120" height="10" rx="5" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="220" y="198" width="80" height="10" rx="5" fill="#FFFFFF" opacity="0.7"/>
+</svg>

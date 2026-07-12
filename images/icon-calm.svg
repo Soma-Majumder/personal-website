@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="calmIconTitle">
+  <title id="calmIconTitle">Icon of a still lake and sun symbolizing calm under pressure</title>
+  <circle cx="40" cy="40" r="38" fill="#EAF0E2"/>
+  <circle cx="40" cy="30" r="12" fill="#E4A853"/>
+  <path d="M10 48 C20 42 30 54 40 48 C50 42 60 54 70 48" stroke="#7C8A6E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M10 58 C20 52 30 64 40 58 C50 52 60 64 70 58" stroke="#C1633D" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

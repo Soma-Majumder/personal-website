@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-hidden="true">
+  <circle cx="28" cy="28" r="28" fill="#F0DCC5"/>
+  <path d="M28 16 C34 21 34 28 28 33 C22 28 22 21 28 16 Z" fill="#C1633D"/>
+  <path d="M28 16 C22 21 22 28 28 33 C34 28 34 21 28 16 Z" fill="#C1633D" opacity="0.6" transform="rotate(72 28 28)"/>
+  <path d="M28 16 C22 21 22 28 28 33 C34 28 34 21 28 16 Z" fill="#C1633D" opacity="0.6" transform="rotate(144 28 28)"/>
+  <path d="M28 16 C22 21 22 28 28 33 C34 28 34 21 28 16 Z" fill="#C1633D" opacity="0.6" transform="rotate(216 28 28)"/>
+  <path d="M28 16 C22 21 22 28 28 33 C34 28 34 21 28 16 Z" fill="#C1633D" opacity="0.6" transform="rotate(288 28 28)"/>
+  <circle cx="28" cy="27" r="5" fill="#7C8A6E"/>
+</svg>

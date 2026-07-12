@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="heroBlobGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0A968"/>
+      <stop offset="55%" stop-color="#E4835A"/>
+      <stop offset="100%" stop-color="#C1633D"/>
+    </linearGradient>
+    <linearGradient id="heroBlobGradientSoft" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EFE3CE"/>
+      <stop offset="100%" stop-color="#DCE7CE"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#heroBlobGradientSoft)" opacity="0.9">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+      values="M300,60 C420,50 540,140 550,280 C560,420 460,540 320,550 C180,560 60,470 50,320 C40,170 160,70 300,60 Z;
+              M290,80 C410,70 520,170 540,300 C560,430 450,530 310,545 C170,560 70,450 55,310 C40,170 150,90 290,80 Z;
+              M300,60 C420,50 540,140 550,280 C560,420 460,540 320,550 C180,560 60,470 50,320 C40,170 160,70 300,60 Z"/>
+  </path>
+  <path fill="url(#heroBlobGradient)" opacity="0.85" transform="translate(40 30) scale(0.72)">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="M300,70 C410,60 520,150 535,280 C550,410 450,520 310,535 C180,550 70,450 60,310 C50,170 180,80 300,70 Z;
+              M310,90 C420,80 510,180 530,300 C550,420 440,510 300,525 C170,540 80,440 65,300 C50,170 190,100 310,90 Z;
+              M300,70 C410,60 520,150 535,280 C550,410 450,520 310,535 C180,550 70,450 60,310 C50,170 180,80 300,70 Z"/>
+  </path>
+</svg>

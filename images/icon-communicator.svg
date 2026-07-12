@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="communicatorIconTitle">
+  <title id="communicatorIconTitle">Icon of two speech bubbles symbolizing clear communication</title>
+  <circle cx="40" cy="40" r="38" fill="#EAF0E2"/>
+  <path d="M16 24 C16 20 19 17 23 17 L47 17 C51 17 54 20 54 24 L54 36 C54 40 51 43 47 43 L28 43 L18 52 L20 43 C17.5 42 16 39 16 36 Z" fill="#7C8A6E"/>
+  <path d="M34 40 C34 36 37 33 41 33 L57 33 C61 33 64 36 64 40 L64 50 C64 54 61 57 57 57 L52 57 L58 64 L44 57 L41 57 C37 57 34 54 34 50 Z" fill="#C1633D"/>
+</svg>

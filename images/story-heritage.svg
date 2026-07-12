@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="heritageTitle">
+  <title id="heritageTitle">Illustration of a meditating figure inside a lotus at sunrise, symbolizing spiritual growth</title>
+  <defs>
+    <linearGradient id="heritageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F6E2C2"/>
+      <stop offset="100%" stop-color="#EFCBA0"/>
+    </linearGradient>
+    <linearGradient id="heritageSun" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0A968"/>
+      <stop offset="100%" stop-color="#C1633D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#heritageBg)"/>
+  <circle cx="240" cy="190" r="86" fill="url(#heritageSun)" opacity="0.35"/>
+  <circle cx="240" cy="190" r="58" fill="url(#heritageSun)" opacity="0.55"/>
+
+  <!-- Mountains -->
+  <path d="M0 300 L90 220 L150 270 L230 190 L300 270 L360 230 L480 300 L480 360 L0 360 Z" fill="#A34E2E" opacity="0.35"/>
+  <path d="M0 330 L110 260 L190 310 L260 250 L340 310 L480 250 L480 360 L0 360 Z" fill="#7C4A32" opacity="0.35"/>
+
+  <!-- Lotus petals -->
+  <g transform="translate(240 260)">
+    <g stroke="#C1633D" stroke-width="0" fill="#C1633D">
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(51 0 0)"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(102 0 0)"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(153 0 0)"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(204 0 0)"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(255 0 0)"/>
+      <path d="M0 -20 C24 -8 24 22 0 34 C-24 22 -24 -8 0 -20 Z" opacity="0.85" transform="rotate(306 0 0)"/>
+    </g>
+  </g>
+
+  <!-- Meditating figure silhouette -->
+  <g transform="translate(240 236)">
+    <circle cx="0" cy="-46" r="15" fill="#2B2622"/>
+    <path d="M-30 0 C-30 -24 -16 -38 0 -38 C16 -38 30 -24 30 0 C18 10 -18 10 -30 0 Z" fill="#2B2622"/>
+    <path d="M-30 4 C-18 14 18 14 30 4 L30 14 C18 22 -18 22 -30 14 Z" fill="#2B2622"/>
+  </g>
+
+  <!-- Rising sparkles -->
+  <g fill="#F6E9D8" opacity="0.9">
+    <circle cx="150" cy="90" r="3"/>
+    <circle cx="330" cy="110" r="2.5"/>
+    <circle cx="200" cy="60" r="2"/>
+    <circle cx="300" cy="70" r="2.5"/>
+  </g>
+</svg>
