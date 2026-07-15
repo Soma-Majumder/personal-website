@@ -379,6 +379,12 @@
     overflow: hidden;
     box-shadow: var(--shadow-md);
   }
+  .hero__photo {
+    width: 100%;
+    aspect-ratio: 480 / 560;
+    object-fit: cover;
+    object-position: center 25%;
+  }
   .hero__dots {
     position: absolute;
     top: -18px;
@@ -800,88 +806,7 @@
           <g fill="currentColor"><circle cx="6" cy="6" r="3"/><circle cx="24" cy="6" r="3"/><circle cx="42" cy="6" r="3"/><circle cx="6" cy="24" r="3"/><circle cx="24" cy="24" r="3"/><circle cx="6" cy="42" r="3"/></g>
         </svg>
         <div class="hero__art-frame">
-          <!-- Illustrated portrait scene (custom SVG — replace with a real photo if preferred) -->
-          <svg viewBox="0 0 480 560" role="img" aria-labelledby="heroArtTitle">
-            <title id="heroArtTitle">Illustration of Soma at a warmly lit desk with a laptop and a mug that reads "stay positive"</title>
-            <defs>
-              <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stop-color="#F6E3CC"/>
-                <stop offset="100%" stop-color="#EFD2AC"/>
-              </linearGradient>
-              <radialGradient id="glow" cx="50%" cy="35%" r="55%">
-                <stop offset="0%" stop-color="#FCE6B8" stop-opacity="0.9"/>
-                <stop offset="100%" stop-color="#FCE6B8" stop-opacity="0"/>
-              </radialGradient>
-            </defs>
-            <rect width="480" height="560" fill="url(#wallGrad)"/>
-            <circle cx="240" cy="200" r="190" fill="url(#glow)"/>
-
-            <!-- string lights -->
-            <path d="M20 40 C120 70 360 70 460 40" stroke="#C9A46A" stroke-width="2" fill="none" opacity="0.6"/>
-            <g fill="#E3A857">
-              <circle cx="70" cy="52" r="4"/><circle cx="150" cy="63" r="4"/><circle cx="240" cy="67" r="4"/><circle cx="330" cy="63" r="4"/><circle cx="410" cy="52" r="4"/>
-            </g>
-
-            <!-- framed art on wall -->
-            <g transform="translate(48 70)">
-              <rect width="86" height="106" rx="6" fill="#FFFFFF" opacity="0.9"/>
-              <rect x="10" y="10" width="66" height="86" rx="2" fill="#EFE3CE"/>
-              <path d="M18 78 L38 46 L54 64 L66 40 L70 78 Z" fill="#8FA888"/>
-              <circle cx="58" cy="26" r="9" fill="#E9C077"/>
-            </g>
-
-            <!-- desk surface -->
-            <path d="M0 400 C160 380 320 380 480 400 L480 560 L0 560 Z" fill="#C89B6E"/>
-            <path d="M0 400 C160 380 320 380 480 400 L480 415 C320 396 160 396 0 415 Z" fill="#B98957"/>
-
-            <!-- plant bottom-left -->
-            <g transform="translate(30 350)">
-              <path d="M20 70 L8 30 C8 30 22 42 26 30 C30 42 40 26 40 26 C40 26 34 50 20 70 Z" fill="#6E9070"/>
-              <path d="M20 70 L14 34 C14 34 24 44 20 70 Z" fill="#557557"/>
-              <path d="M0 70 L40 70 L36 100 L4 100 Z" fill="#C05F35"/>
-            </g>
-
-            <!-- laptop -->
-            <g transform="translate(255 330)">
-              <path d="M0 90 L170 90 L184 112 L-14 112 Z" fill="#33302B"/>
-              <path d="M8 0 L162 0 L170 90 L0 90 Z" fill="#1F3A56"/>
-              <path d="M16 10 L154 10 L160 82 L10 82 Z" fill="#FCE9C8"/>
-            </g>
-
-            <!-- shoulders / top -->
-            <path d="M120 560 C120 460 165 420 240 420 C315 420 360 460 360 560 Z" fill="#F5EFE4"/>
-            <path d="M120 560 C120 460 165 420 240 420 C246 420 252 420 258 421 C195 436 165 478 165 560 Z" fill="#E7DCC6"/>
-
-            <!-- neck + necklace -->
-            <rect x="216" y="330" width="48" height="60" rx="16" fill="#C98A5E"/>
-            <path d="M212 372 C224 384 256 384 268 372" stroke="#E3A857" stroke-width="3" fill="none" stroke-linecap="round"/>
-            <circle cx="240" cy="384" r="4" fill="#E3A857"/>
-
-            <!-- head -->
-            <ellipse cx="240" cy="272" rx="76" ry="86" fill="#D99A6C"/>
-
-            <!-- hair -->
-            <path d="M158 260 C150 176 194 122 240 122 C286 122 330 176 322 260 C316 210 300 170 240 170 C180 170 164 210 158 260 Z" fill="#241B14"/>
-            <path d="M154 250 C150 300 156 344 176 372 C166 330 164 290 168 254 Z" fill="#241B14"/>
-            <path d="M326 250 C330 300 324 344 304 372 C314 330 316 290 312 254 Z" fill="#241B14"/>
-
-            <!-- face features -->
-            <circle cx="210" cy="272" r="6.5" fill="#2B2015"/>
-            <circle cx="270" cy="272" r="6.5" fill="#2B2015"/>
-            <path d="M198 250 C206 244 220 244 228 250" stroke="#2B2015" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-            <path d="M252 250 C260 244 274 244 282 250" stroke="#2B2015" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-            <path d="M222 304 C232 314 248 314 258 304" stroke="#8A4B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <path d="M236 280 C238 288 242 288 244 280" stroke="#C07A4E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-
-            <!-- arm + mug -->
-            <path d="M330 420 C356 420 372 400 372 372 L372 412 C372 440 350 452 322 452 Z" fill="#F5EFE4"/>
-            <g transform="translate(330 396)">
-              <rect x="0" y="10" width="46" height="40" rx="6" fill="#FFFFFF" stroke="#E4D6BF" stroke-width="2"/>
-              <path d="M46 18 C60 18 60 42 46 42" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
-              <path d="M46 18 C60 18 60 42 46 42" stroke="#E4D6BF" stroke-width="2" fill="none" stroke-linecap="round"/>
-              <path d="M8 0 C6 -6 12 -8 10 -14 M20 0 C18 -6 24 -8 22 -14" stroke="#C9BBA2" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
-            </g>
-          </svg>
+          <img class="hero__photo" src="images/soma-profile.jpg" alt="Soma Majumder, AI Native Builder and Front-End Developer">
         </div>
       </div>
 
