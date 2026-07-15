@@ -251,6 +251,17 @@
     color: #fff;
     transform: translateY(-3px);
   }
+  .btn--sage {
+    background-color: var(--sage);
+    color: #fff;
+    box-shadow: var(--shadow-sm);
+  }
+  .btn--sage:hover, .btn--sage:focus-visible {
+    background-color: var(--sage-dark);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(93, 128, 101, 0.38);
+  }
+  .nav__resume-btn { padding: 0.6rem 1.35rem; font-size: 0.9rem; }
 
   /* =========================================================
      5. SECTION HEADINGS
@@ -666,9 +677,10 @@
       overflow: hidden;
       transition: max-height var(--transition);
     }
-    .nav__menu.is-open { max-height: 420px; }
+    .nav__menu.is-open { max-height: 480px; }
     .nav__menu li { width: 100%; }
     .nav__link { display: block; padding: 1rem clamp(1.25rem, 4vw, 3rem); }
+    .nav__resume-btn { display: inline-flex; margin: 0.5rem clamp(1.25rem, 4vw, 3rem) 1rem; }
 
     .nav__toggle.is-active .nav__toggle-bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
     .nav__toggle.is-active .nav__toggle-bar:nth-child(2) { opacity: 0; }
@@ -706,6 +718,7 @@
       <li><a href="#skills" class="nav__link" data-nav-link>Skills</a></li>
       <li><a href="#projects" class="nav__link" data-nav-link>Projects</a></li>
       <li><a href="#contact" class="nav__link" data-nav-link>Let&rsquo;s Connect</a></li>
+      <li><a href="assets/resume.pdf" class="btn btn--sage nav__resume-btn" download>Download Resume</a></li>
     </ul>
   </nav>
 </header>
