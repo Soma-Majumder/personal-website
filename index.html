@@ -774,7 +774,8 @@
   @media (max-width: 980px) {
     .hero .container { grid-template-columns: 1fr; }
     .hero__art { order: -1; max-width: 420px; margin-inline: auto; width: 100%; }
-    .hero__heading, .hero__subhead, .hero__text { text-align: center; margin-inline: auto; }
+    .hero__heading { display: flex; justify-content: center; text-align: center; }
+    .hero__subhead, .hero__text { text-align: center; margin-inline: auto; }
     .hero__actions { text-align: center; }
     .value-row { grid-template-columns: repeat(4, 1fr); justify-items: center; }
     .story__grid, .bring__grid, .work__grid { grid-template-columns: repeat(2, 1fr); }
