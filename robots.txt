@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://somamajumder.com/sitemap.xml
+Sitemap: https://soma-majumder-personal-website.vercel.app/sitemap.xml
